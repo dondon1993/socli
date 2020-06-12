@@ -30,6 +30,7 @@ import socli.printer as printer
 from socli.parser import parse_arguments
 from socli.printer import display_results
 
+
 tag = ""  # tag based search
 query = ""  # Query
 
