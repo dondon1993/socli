@@ -9,10 +9,12 @@ import textwrap
 import urllib
 
 import colorama
+from colorama import init
 import requests
 
 from socli import search as search, tui as tui
 
+init(convert=True)
 DEBUG = False
 
 # Bold and underline are not supported by colorama.
